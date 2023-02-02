@@ -3,26 +3,28 @@
 ---
 
 ## 1. Obsidian 새 보관소 생성
-![img1|300](./images/step02.png)
+![img1|400](./images/step02.png)
+
+
 - 새 보관소 `생성` 버튼을 눌러주세요
 
 <br/>
 <br/>
 
-![img1|300](./images/step03.png)
+![img1|400](./images/step03.png)
 - 원하는 보관소 이름과 저장할 경로를 정해주세요
 - 이름과 경로를 정했으면 `생성` 버튼을 누룹니다
 
 <br/>
 <br/>
 
-![img1|400](./images/step04.png)
+![img1|600](./images/step04.png)
 - 위 `새 노트`  버튼을 눌러 생성하거나, `새 파일 생성(Ctrl + N)` 버튼을 눌러 파일을 생성하세요
 
 <br/>
 <br/>
 
-![img1|400](./images/step05.png)
+![img1|600](./images/step05.png)
 - 아무 내용이나 적어 봅시다
 
 <br/>
@@ -36,14 +38,14 @@
 <br/>
 <br/>
 
-![img1|400](./images/step07.png)
+![img1|700](./images/step07.png)
 - 메뉴창 `커뮤니티 플러그인`을 선택 하고
 - 오른쪽 커뮤니티 플러그인 `탐색`버튼을 눌러 주세요
 
 <br/>
 <br/>
 
-![img1|400](./images/step08.png)
+![img1|700](./images/step08.png)
 - 검색창에 'obsidian git' 이라 검색하시면 맨위에 'Obsidian Git' 을 선택 합니다
 - 그리고 `설치`버튼을 눌러 설치합니다
 
@@ -53,7 +55,7 @@
 <br/>
 <br/>
 
-![img1|400](./images/step09.png)
+![img1|700](./images/step09.png)
 - 탐색 창에서 나오시고 밑에 `설치된 플러그인`에서 Obsidian Git을 활성화 버튼을 눌러주세요
   (위 사진은 활성화 된 사진입니다)
   
@@ -62,7 +64,7 @@
 
 ## 3. gitignore을 이용해서 작업 제외 파일 설정하기
 
-![img1|400](./images/step10.png)
+![img1|600](./images/step10.png)
 
 - 해당 창은 명령어 팔레트라는 창입니다. 단축키 Ctrl + p 를 누르시고 ignore를 검색해 주세요
 - 'Edit.gitignore'를 선택해 주세요
@@ -70,7 +72,7 @@
 <br/>
 <br/>
 
-![img1|400](./images/step11.png)
+![img1|600](./images/step11.png)
 - 해당 파일들을 입력해주세요
 ```
 .obsidian/
@@ -84,7 +86,7 @@
 <br/>
 
 #### .gitignore 하는 이유
-![img1|400](./images/step12.png)
+![img1|600](./images/step12.png)
 - 쓸데 없는 파일들 까지 github repo 에 올라가기 때문에 미리 작업을 제외시켜줍니다
 
 <br/>
@@ -92,13 +94,13 @@
 
 ## 4. Github DeskTop 이용해서 New repo 만들기
 
-![img1|400](./images/step13.png)
+![img1|700](./images/step13.png)
 - `File`  → `New repository` 을 선택합니다
 
 <br/>
 <br/>
 
-![img1|400](./images/step14.png)
+![img1|700](./images/step14.png)
 - 여기서 중요합니다 repository의 **"Name" 은 반드시 Obsidian 보관소의 이름과 동일**하게 해주셔야 합니다 (저는 HTU_Obsidian이라는 저장소를 만들었으니 위와 같이 해줬습니다)
 
 - 파일 경로는 Obsidian 보관소의 상위폴더로 지정해야 합니다
@@ -108,7 +110,7 @@
 <br/>
 <br/>
 
-![img1|400](./images/step15.png)
+![img1|700](./images/step15.png)
 - 공개로 게시하고 싶다면 `Keep this code private` **체크를 해제** 하고
 - `Publish repository` 버튼을 눌러주시면 됩니다
 
@@ -117,7 +119,7 @@
 
 ## 5. Obsidian 에서 commit, push 하기
 
-![img1|400](./images/step16.png)
+![img1|700](./images/step16.png)
 - 다시 아까 작업하던 Obsidian으로 돌아와서 Ctrl + p 로 명령어 팔레트 창을 열고
 
 - git commit 을 입력합니다
@@ -132,19 +134,19 @@
 <br/>
 <br/>
 
-![img1|400](./images/step17.png)
+![img1|700](./images/step17.png)
 - 저는 일단 commit을 직접 입력하였습니다
 
 <br/>
 <br/>
 
-![img1|400](./images/step18.png)
+![img1|700](./images/step18.png)
 - `push`을 입력해 나온  `Git: Push`를 선택합니다
 
 <br/>
 <br/>
 
-![img1|150](./images/step19.png)
+![img1|200](./images/step19.png)
 오른쪽 상단에 이런 메시지가 뜨면 성공적으로 push까지 완료 되었습니다
 
 ---
