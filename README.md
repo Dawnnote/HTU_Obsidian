@@ -151,6 +151,6 @@
 
 - 만약 Obsidian에서 내용을 수정하지 않고 Github에서 수정한 경우,
   Obsidian 에서 git pull 명령어를 사용하면 github에서 수정된 내용으로 바뀝니다
-P
+  
 - Obsidian Git 플러그인 설정에서 자동으로 commit 과 push를 해주는 기능도 있어
   원하는 방향으로 사용하시길 바랍니다
